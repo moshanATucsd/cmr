@@ -32,8 +32,15 @@ bash install_external.sh
 ### Demo
 1. From the `cmr` directory, download the trained model:
 ```
-wget https://people.eecs.berkeley.edu/~kanazawa/cachedir/cmr/model.tar.gz & tar -vzxf model.tar.gz
+wget https://people.eecs.berkeley.edu/~kanazawa/cachedir/cmr/model.tar.gz
 ```
+
+Then
+
+```
+tar -vzxf model.tar.gz
+```
+
 You should see `cmr/cachedir/snapshots/bird_net/`
 
 2. Run the demo:
